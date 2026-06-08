@@ -121,8 +121,8 @@ KPI marts: fct_customer_payments, fct_product_sales
 
 models/
 ├── staging/
-│---├── stg_customers
-│---├── stg_orders
+│   ├── stg_customers
+│   ├── stg_orders
 │   ├── stg_products
 │   └── stg_payments
 │
