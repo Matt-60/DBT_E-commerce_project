@@ -76,13 +76,13 @@ Materialization: table
 
 # ⭐ Star Schema
 
-                dim_customers        dim_products
-                       \                 /
-                        \               /
-                         fct_orders
-                        /       |      \
-                       /        |       \
-     fct_customer_payments   fct_product_sales
+      dim_customers        dim_products
+             \                 /
+              \               /
+               \             /
+                fct_orders
+
+KPI marts: fct_customer_payments, fct_product_sales
 
 ---
 
@@ -121,8 +121,8 @@ Materialization: table
 
 models/
 ├── staging/
-│   ├── stg_customers
-│   ├── stg_orders
+│---├── stg_customers
+│---├── stg_orders
 │   ├── stg_products
 │   └── stg_payments
 │
