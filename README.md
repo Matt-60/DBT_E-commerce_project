@@ -117,29 +117,6 @@ KPI marts: fct_customer_payments, fct_product_sales
 
 ---
 
-# 📁 Project Structure
-
-models/
-├── staging/
-│   ├── stg_customers
-│   ├── stg_orders
-│   ├── stg_products
-│   └── stg_payments
-│
-├── intermediate/
-│   ├── int_orders_enriched
-│   ├── int_customer_orders
-│   ├── int_customer_payments
-│   └── int_product_sales
-│
-└── marts/
-    ├── dim_customers
-    ├── dim_products
-    ├── fct_orders
-    ├── fct_customer_payments
-    └── fct_product_sales
-
----
 
 # 🚀 Future Improvements
 
