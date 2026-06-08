@@ -1,15 +1,19 @@
-Welcome to your new dbt project!
+# 📊 dbt E-commerce Analytics Project
 
-### Using the starter project
+This project transforms raw e-commerce data (customers, orders, products, payments) into a clean **star schema analytics model** using dbt and Snowflake.
 
-Try running the following commands:
-- dbt run
-- dbt test
+It is designed for BI tools such as Power BI, Tableau, and Looker.
 
+---
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+# 🧭 Project Overview
+
+The project follows a layered dbt architecture:
+
+- **Staging layer** → data cleaning & standardization
+- **Intermediate layer** → business logic & enrichment
+- **Marts layer** → BI-ready star schema
+
+---
+
+# 🏗️ Data Architecture
