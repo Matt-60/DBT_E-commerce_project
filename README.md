@@ -1,4 +1,4 @@
-# 📊 dbt E-commerce Analytics Project
+# 📊 DBT E-commerce Analytics Project
 
 This project builds a complete analytics pipeline for an e-commerce dataset using dbt and Snowflake, transforming raw transactional data into a structured **star schema optimized for BI tools** such as Power BI, Tableau, and Looker.
 
